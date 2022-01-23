@@ -6,7 +6,7 @@ app.use(express.json());
 let users = [];
 let tweets = [];
 
-app.get("/sign-up", (req, res) => {
+app.post("/sign-up", (req, res) => {
     const username = req.body.username;
     const avatar = req.body.avatar;
 
@@ -16,7 +16,7 @@ app.get("/sign-up", (req, res) => {
     res.send("OK")
 });
 
-app.get("/tweets", (req, res) => {
+app.post("/tweets", (req, res) => {
     const username = req.body.username;
     const tweet = req.body.tweet;
 
@@ -25,5 +25,9 @@ app.get("/tweets", (req, res) => {
 
     res.send("OK")
 });
+
+// app.get("/tweets", (req, res) => {
+    
+// });
 
 app.listen(5000);
