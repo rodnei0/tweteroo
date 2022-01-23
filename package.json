@@ -1,0 +1,24 @@
+{
+  "name": "projeto_11_tweteroo",
+  "type": "module",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rodnei0/tweteroo.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rodnei0/tweteroo/issues"
+  },
+  "homepage": "https://github.com/rodnei0/tweteroo#readme",
+  "dependencies": {
+    "express": "^4.17.2"
+  }
+}
